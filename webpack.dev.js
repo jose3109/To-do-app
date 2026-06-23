@@ -8,7 +8,7 @@ export default merge(common, {
     devtool: 'eval-source-map',
 
     devServer: {
-        watchFiles: ['./src/template.html'],
+        watchFiles: ['./src/main.html'],
         static: path.resolve(import.meta.dirname, 'dist'),
         open: true,
     },
